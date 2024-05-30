@@ -1,6 +1,9 @@
+# backend:
+#   name: github
+#   repo: qq8244353/gatsby-starter-netlify-cms
+#   branch: master
 backend:
-  name: github
-  repo: qq8244353/gatsby-starter-netlify-cms
+  name: git-gateway
   branch: master
 
 local_backend: true

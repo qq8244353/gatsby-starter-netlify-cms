@@ -2,6 +2,12 @@ backend:
   name: github
   repo: qq8244353/gatsby-starter-netlify-cms
   branch: master
+  commit_messages:
+    create: "Create {{collection}} “{{slug}}”"
+    update: "Update {{collection}} “{{slug}}”"
+    delete: "Delete {{collection}} “{{slug}}”"
+    uploadMedia: "[skip ci] Upload “{{path}}”"
+    deleteMedia: "[skip ci] Delete “{{path}}”"
   # open_authoring: true
 publish_mode: editorial_workflow
 # backend:

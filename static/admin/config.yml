@@ -1,7 +1,7 @@
 backend:
   name: github
-  branch: master
   repo: qq8244353/gatsby-starter-netlify-cms
+  branch: master
 
 local_backend: true
 media_folder: static/img
